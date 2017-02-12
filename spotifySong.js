@@ -8,7 +8,7 @@ if (title.length == 0) {
 };
 
 
-function getSong () {
+function getSong (title) {
 
 
 	spotify.search({ type: 'track', query: title }, function(err, data) {
