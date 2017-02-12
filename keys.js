@@ -1,4 +1,4 @@
-console.log('this is loaded');
+// console.log('this is loaded');
 
 exports.twitterKeys = {
   consumer_key: 'o4LgiFUFhPa5vSvcqlUbaAuQ5',
@@ -10,8 +10,5 @@ exports.twitterKeys = {
 };
 
 exports.tmdbKeys = {
-	method: 'GET',
-  	url: 'https://api.themoviedb.org/3/account',
-  	qs: { api_key: '7b012573280118f654194ce4df6bfda3' },
-  	body: '{}' 
+	api_key: '7b012573280118f654194ce4df6bfda3',
 };
